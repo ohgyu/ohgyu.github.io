@@ -1,0 +1,55 @@
+<!doctype html> <!-- projectshow.html -->
+<html><head><meta charset="utf-8"/> <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <style>
+    * {box-sizing:border-box; }
+    header, nav, section,aside, footer
+    {padding:0; margin:0px 0px 5px 0px;}
+    header {height:25%; background-color:lightgray;}
+    header div {margin:5px;}
+    header div h1 {width:50%; margin:auto;}
+    nav {background-color:lightgray; height:5%;}
+    nav div {width:50%; margin:auto;}
+    nav div li {list-style-type: none; display:inline;}
+    .git {float:right;}
+    section {width:50%; height:500px; margin:auto;}
+    section div {width:calc(50% - 20px); float:left; padding:10px; margin:10px;}
+    section div video {width:100%; margin:auto;}
+    section div div {width:calc(50% - 20px);}
+    footer {height:10%; background-color:lightgray;}
+    footer div {width:50%; margin:auto; text-align:right;}
+    </style>
+    <title>ePortFolio</title>
+    </head>
+    <body>
+      <header><img src="aaaaa.jpg" width="100%"/>
+        <div><h1>20171339 권 오 규</h1></div>
+      </header>
+      <nav>
+        <div>
+          <li><a href="ePortFolio.html"> 메 인 |</a></li>
+          <li><a href="levelOfEducation.html"> 학 력 / 경 력 |</a></li>
+          <li><a href="project.html"> 프 로 젝 트 |</a></li>
+          <li><a href="activity.html">주요 활동</a></li>
+          <li class="git"><a href="https://github.com/ohgyu">github</a></li>
+        </div>
+      </nav>
+    <section>
+      <div>        
+        <h2>Unity 를 이용한 2D 타워디펜스 게임</h2>
+        캡스톤디자인을 통하여 평소에도 게임에 관심이 많아<br/>
+        게임 개발을 해보고 싶어 조원들과 함께 이번기회에.<br/>
+        식물vs좀비와 비슷한 종류의 게임을 만들어 보려합니다.
+      </div>
+      <div>
+        <div><img src="bbbb.jpg" width="100%"/></div>
+        <div><img src="bbbbb.jpg" width="100%"/></div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        email : khckok@naver.com<br/>
+        phone number : 010-9071-8836
+      </div>
+    </footer>
+  </body>
+</html>
